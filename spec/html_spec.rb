@@ -1,5 +1,8 @@
 require_relative './spec_helper'
 
+
+my_list.text.html
+
 describe "A populated HTML file called my_list.html" do
   it 'should be present' do
     file_is_present = File.exists?("my_list.html")
